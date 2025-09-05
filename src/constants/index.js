@@ -1,4 +1,3 @@
-
 import {
   logo,
   backend,
@@ -16,7 +15,7 @@ import {
   express,
   aws,
   mui,
-  
+  ml,
   gsap,
   framer,
   figma,
@@ -29,9 +28,21 @@ import {
   redux,
   tailwind,
   threejs,
+  python,
+  numpy,
+  pandas,
+  sklearn,
+  matplot,
+  tensor,
+  langchain,
+  hugging,
+  pytorch,
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+  genai,
+  blue,
+  cloud,
 } from '../assets'
 
 
@@ -59,20 +70,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Frontend-Developer",
     icon: web,
   },
   {
-    title: "Frontend Developer",
-    icon: mobile,
+    title: "ML-Engineer",
+    icon: ml,
   },
   {
-    title: "Backend Developer",
+    title: "Basic Backend Developer",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
-    icon: creator,
+    title: "Gen-AI Learner",
+    icon: genai,
   },
 ];
 
@@ -98,12 +109,6 @@ const technologies = [
     icon: gsap,
   },
   {
-    name: "framer",
-    icon: framer,
-  },
-
- 
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -112,16 +117,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Material Ui",
-    icon: mui,
   },
   {
     name: "Node JS",
@@ -132,8 +129,36 @@ const technologies = [
     icon: express,
   },
   {
-    name: "AWS",
-    icon: aws,
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Numpy",
+    icon: numpy,
+  },
+  {
+    name: "Pandas",
+    icon: pandas,
+  },
+  {
+    name: "Sk-learn",
+    icon: sklearn,
+  },
+  {
+    name: "TensorFlow",
+    icon: tensor,
+  },
+  {
+    name: "LangChain",
+    icon: langchain,
+  },
+  {
+    name: "Hugging Face",
+    icon: hugging,
+  },
+  {
+    name: "PyTorch",
+    icon: pytorch,
   },
   {
     name: "MongoDB",
@@ -154,120 +179,125 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    title: "SDE Intern",
+    company_name: "BlueStock, Kolkata, India",
+    icon: blue,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "July 2025 – August 2025",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Researched and analyzed emerging technologies to design innovative solutions for real-world development challenges.",  
+      "Integrated RESTful APIs and optimized data flow to enhance scalability and maintainability of existing applications.",  
+      "Collaborated with the development team to deliver efficient, user-focused features and improve overall system performance.",
+    ],
+  },
+  {
+    title: "Google Cloud Skill Boost Program",
+    company_name: "Remote",
+    icon: cloud,
+    iconBg: "#383E56",
+    date: "Oct 2024 – Nov 2024",
+    points: [
+      "Gained hands-on experience with Google Cloud services including Cloud Vision API, Cloud Speech API, and API Gateway to analyze images, process speech, and manage API traffic efficiently.",
+      "Explored AI/ML capabilities by developing Generative AI applications using Gemini and Streamlit, improving prompt design in Vertex AI for better AI responses.",
+      "Built and deployed cloud-based applications on Google App Engine, Cloud Functions, and Cloud Storage, implementing scalable and serverless architectures.",
     ],
   },
 ];
 
-const testimonials = [
+const techQuotes = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
+    quote:
+      "Technology is best when it brings people together.",
+    name: "Matt Mullenweg",
     image: firstTestimonial,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+    quote:
+      "It has become appallingly obvious that our technology has exceeded our humanity.",
+    name: "Albert Einstein",
     image: secondTestimonial,
   },
   {
-    testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    quote:
+      "The science of today is the technology of tomorrow.",
+    name: "Edward Teller",
     image: thirdTestimonial,
   },
 ];
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "College Student Management Portal",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Role-based web app for students, staff, and HODs with Bootstrap UI and integrated charts.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
- 
+      { name: "django", color: "blue-text-gradient" },
+      { name: "bootstrap", color: "white-text-gradient" },
+      { name: "charts", color: "green-text-gradient" },
     ],
     image: project2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Pawan-1809/College-Student-Management-Portal",
   },
   {
-    name: "GearXpert",
+    name: "Disease Prediction Model",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "ML model predicting diseases using Random Forest, XGBoost, and voting classifiers.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GoGroove-Ecommerce",
-    description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+      { name: "python", color: "blue-text-gradient" },
+      { name: "ml", color: "green-text-gradient" },
+      { name: "xgboost", color: "pink-text-gradient" },
     ],
     image: project3,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Pawan-1809/Disease-Prediction-Model",
+  },
+  {
+    name: "Web Scraping Amazon Product Reviews",
+    description:
+      "Python tool extracting product reviews and ratings for sentiment analysis.",
+    tags: [
+      { name: "python", color: "blue-text-gradient" },
+      { name: "scraping", color: "green-text-gradient" },
+      { name: "sentiment", color: "pink-text-gradient" },
+    ],
+    image: gearXpert,
+    source_code_link: "https://github.com/Pawan-1809/Amazon-Product-Review-Scraper",
+  },
+  {
+    name: "AgroHelp (Smart Farming Assistant)",
+    description:
+      "Website detecting plant diseases, providing weather forecasts, crop suggestions, and IoT-based automations.",
+    tags: [
+      { name: "website", color: "blue-text-gradient" },
+      { name: "iot", color: "green-text-gradient" },
+      { name: "ml", color: "pink-text-gradient" },
+    ],
+    image: project2,
+    source_code_link: "https://github.com/Pawan-1809/AgroHelp-Smart-Farming-Assistant",
+  },
+  {
+    name: "Resume Rating using Machine Learning",
+    description:
+      "ML model evaluating resumes and scoring them based on relevance to job descriptions.",
+    tags: [
+      { name: "ml", color: "blue-text-gradient" },
+      { name: "python", color: "green-text-gradient" },
+      { name: "resume", color: "pink-text-gradient" },
+    ],
+    image: gearXpert,
+    source_code_link: "https://github.com/Pawan-1809/Resume-Rating-ML",
+  },
+  {
+    name: "Weather Web App",
+    description:
+      "Web app fetching weather data and forecast built using FastAPI and Streamlit.",
+    tags: [
+      { name: "fastapi", color: "blue-text-gradient" },
+      { name: "streamlit", color: "green-text-gradient" },
+      { name: "weather", color: "pink-text-gradient" },
+    ],
+    image: project2,
+    source_code_link: "https://github.com/Pawan-1809/Weather-Web-App",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, techQuotes, projects };

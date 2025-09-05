@@ -29,6 +29,20 @@ import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
+import ml from "./ml.png"
+import genai from "./genai.png"
+import blue from "./blue.png"
+import cloud from "./cloud.png"
+import numpy from "./tech/numpy.png"
+import pandas from "./tech/pandas.png"
+import sklearn from "./tech/sklearn.png"
+import matplot from "./tech/matplot.png"
+import tensor from "./tech/tensor.png"
+import langchain from "./tech/langchain.png"
+import hugging from "./tech/hugging.png"
+import pytorch from "./tech/pytorch.png"
+import python from "./tech/python.png"
+
 
 export {
   logo,
@@ -62,5 +76,18 @@ export {
   redux,
   tailwind,
   threejs,
+  ml,
+  genai,
+  blue,
+  cloud,
+  numpy,
+  pandas,
+  sklearn,
+  matplot,
+  tensor,
+  langchain,
+  hugging,
+  pytorch,
+  python,
 
 };
