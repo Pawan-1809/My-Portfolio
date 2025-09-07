@@ -11,8 +11,6 @@ import framer from './tech/framer.png';
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import gearXpert from './gearXpert.png';
-import project3 from './project3.webp';
-import project1 from './proj1.webp'
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';
@@ -42,7 +40,12 @@ import langchain from "./tech/langchain.png"
 import hugging from "./tech/hugging.png"
 import pytorch from "./tech/pytorch.png"
 import python from "./tech/python.png"
-
+import proj1 from "./proj1.webp"
+import proj2 from "./proj2.webp"
+import proj3 from "./proj3.webp"
+import proj4 from "./proj4.webp"
+import proj5 from "./proj5.webp"
+import proj6 from "./proj6.webp"
 
 export {
   logo,
@@ -55,8 +58,6 @@ export {
   close,
   css,
   gearXpert,
-  project1,
-  project3,
   mysql,
   express,
   aws,
@@ -89,5 +90,11 @@ export {
   hugging,
   pytorch,
   python,
+  proj1,
+  proj2,
+  proj3,
+  proj4,
+  proj5,
+  proj6,
 
 };

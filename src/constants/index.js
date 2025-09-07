@@ -1,4 +1,10 @@
 import {
+  proj1,
+  proj2,
+  proj3,
+  proj4,
+  proj5,
+  proj6,
   logo,
   backend,
   creator,
@@ -9,8 +15,6 @@ import {
   close,
   css,
   gearXpert,
-  project1,
-  project3,
   mysql,
   express,
   aws,
@@ -231,7 +235,7 @@ const projects = [
       { name: "bootstrap", color: "white-text-gradient" },
       { name: "charts", color: "green-text-gradient" },
     ],
-    image: project1,
+    image: proj1,
     source_code_link: "https://github.com/Pawan-1809/College_management_portal",
   },
   {
@@ -243,7 +247,7 @@ const projects = [
       { name: "Chatbot", color: "green-text-gradient" },
       { name: "MongoDB", color: "pink-text-gradient" },
     ],
-    image: project1,
+    image: proj2,
     source_code_link: "https://github.com/Pawan-1809/EduFusion",
   },
   {
@@ -255,7 +259,7 @@ const projects = [
       { name: "Auth", color: "green-text-gradient" },
       { name: "YOLO", color: "pink-text-gradient" },
     ],
-    image: project1,
+    image: proj3,
     source_code_link: "https://github.com/Pawan-1809/Food_Surplus",
   },
   {
@@ -267,7 +271,7 @@ const projects = [
       { name: "iot", color: "green-text-gradient" },
       { name: "ML", color: "pink-text-gradient" },
     ],
-    image: project1,
+    image: proj4,
     source_code_link: "https://github.com/Pawan-1809/AgroHelp",
   },
   {
@@ -279,7 +283,7 @@ const projects = [
       { name: "python", color: "green-text-gradient" },
       { name: "JS", color: "pink-text-gradient" },
     ],
-    image: project1,
+    image: proj5,
     source_code_link: "https://github.com/Pawan-1809/Resume_Ranker",
   },
   {
@@ -291,7 +295,7 @@ const projects = [
       { name: "Socket.IO", color: "green-text-gradient" },
       { name: "Tailwind CSS", color: "pink-text-gradient" },
     ],
-    image: project1,
+    image: proj6,
     source_code_link: "https://secret-chat-1.onrender.com/",
   },
 ];
