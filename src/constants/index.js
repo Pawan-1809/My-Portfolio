@@ -9,7 +9,7 @@ import {
   close,
   css,
   gearXpert,
-  project2,
+  project1,
   project3,
   mysql,
   express,
@@ -44,10 +44,6 @@ import {
   blue,
   cloud,
 } from '../assets'
-
-
-// Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
 
 
 export const navLinks = [
@@ -227,76 +223,76 @@ const techQuotes = [
 
 const projects = [
   {
-    name: "College Student Management Portal",
+    name: "Student Management Portal",
     description:
-      "Role-based web app for students, staff, and HODs with Bootstrap UI and integrated charts.",
+      "Role-based web app for students, staff, and HODs, with a responsive Bootstrap interface and dynamic charts for data insights",
     tags: [
       { name: "django", color: "blue-text-gradient" },
       { name: "bootstrap", color: "white-text-gradient" },
       { name: "charts", color: "green-text-gradient" },
     ],
-    image: project2,
-    source_code_link: "https://github.com/Pawan-1809/College-Student-Management-Portal",
+    image: project1,
+    source_code_link: "https://github.com/Pawan-1809/College_management_portal",
   },
   {
-    name: "Disease Prediction Model",
+    name: "EduFusion : Carrier Planner",
     description:
-      "ML model predicting diseases using Random Forest, XGBoost, and voting classifiers.",
+      "Educational platform designed to help learners plan, track, and enhance their learning journey.",
     tags: [
-      { name: "python", color: "blue-text-gradient" },
-      { name: "ml", color: "green-text-gradient" },
-      { name: "xgboost", color: "pink-text-gradient" },
+      { name: "Flask", color: "blue-text-gradient" },
+      { name: "Chatbot", color: "green-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
     ],
-    image: project3,
-    source_code_link: "https://github.com/Pawan-1809/Disease-Prediction-Model",
+    image: project1,
+    source_code_link: "https://github.com/Pawan-1809/EduFusion",
   },
   {
-    name: "Web Scraping Amazon Product Reviews",
+    name: "Food Surplus Management",
     description:
-      "Python tool extracting product reviews and ratings for sentiment analysis.",
+      "Role Based web-app using React and JS, featuring YOLO-based image recognition and OpenAI chatbot.",
     tags: [
-      { name: "python", color: "blue-text-gradient" },
-      { name: "scraping", color: "green-text-gradient" },
-      { name: "sentiment", color: "pink-text-gradient" },
+      { name: "Django", color: "blue-text-gradient" },
+      { name: "Auth", color: "green-text-gradient" },
+      { name: "YOLO", color: "pink-text-gradient" },
     ],
-    image: gearXpert,
-    source_code_link: "https://github.com/Pawan-1809/Amazon-Product-Review-Scraper",
+    image: project1,
+    source_code_link: "https://github.com/Pawan-1809/Food_Surplus",
   },
   {
-    name: "AgroHelp (Smart Farming Assistant)",
+    name: "AgroHelp",
     description:
       "Website detecting plant diseases, providing weather forecasts, crop suggestions, and IoT-based automations.",
     tags: [
-      { name: "website", color: "blue-text-gradient" },
+      { name: "Deep learning", color: "blue-text-gradient" },
       { name: "iot", color: "green-text-gradient" },
-      { name: "ml", color: "pink-text-gradient" },
+      { name: "ML", color: "pink-text-gradient" },
     ],
-    image: project2,
-    source_code_link: "https://github.com/Pawan-1809/AgroHelp-Smart-Farming-Assistant",
+    image: project1,
+    source_code_link: "https://github.com/Pawan-1809/AgroHelp",
   },
   {
-    name: "Resume Rating using Machine Learning",
+    name: "Resume Ranker",
     description:
-      "ML model evaluating resumes and scoring them based on relevance to job descriptions.",
+      "ML-driven resume evaluation system that computes ATS scores and offers relevance-based recommendations for job matching",
     tags: [
-      { name: "ml", color: "blue-text-gradient" },
+      { name: "ML", color: "blue-text-gradient" },
       { name: "python", color: "green-text-gradient" },
-      { name: "resume", color: "pink-text-gradient" },
+      { name: "JS", color: "pink-text-gradient" },
     ],
-    image: gearXpert,
-    source_code_link: "https://github.com/Pawan-1809/Resume-Rating-ML",
+    image: project1,
+    source_code_link: "https://github.com/Pawan-1809/Resume_Ranker",
   },
   {
-    name: "Weather Web App",
+    name: "Secret Chat",
     description:
-      "Web app fetching weather data and forecast built using FastAPI and Streamlit.",
+      "Real-time, Anonymous chat application with secure file and image sharing without user registration",
     tags: [
-      { name: "fastapi", color: "blue-text-gradient" },
-      { name: "streamlit", color: "green-text-gradient" },
-      { name: "weather", color: "pink-text-gradient" },
+      { name: "ExpressJS", color: "blue-text-gradient" },
+      { name: "Socket.IO", color: "green-text-gradient" },
+      { name: "Tailwind CSS", color: "pink-text-gradient" },
     ],
-    image: project2,
-    source_code_link: "https://github.com/Pawan-1809/Weather-Web-App",
+    image: project1,
+    source_code_link: "https://secret-chat-1.onrender.com/",
   },
 ];
 
